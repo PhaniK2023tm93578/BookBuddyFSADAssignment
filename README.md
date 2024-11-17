@@ -61,7 +61,7 @@ The primary purpose of Book Buddy is to create a digital platform that facilitat
    );
 3. **Clone this repo:**
     ```bash
-    git clone dummy
+    git clone https://github.com/PhaniK2023tm93578/BookBuddyFSADAssignment.git
     ```
 4. **Install Dependencies:**
     ```bash
@@ -71,11 +71,11 @@ The primary purpose of Book Buddy is to create a digital platform that facilitat
     ```bash
     npm run dev
     ```
-6. **Update the PG_URI in the FILE with the actual db details in this format:**
+6. **Update the PG_URI in the [bookModels.js](https://github.com/PhaniK2023tm93578/BookBuddyFSADAssignment/blob/main/server/models/booksModels.js) with the actual db details in this format:**
     ```bash
     postgres://YourUserName:YourPassword@localhost:5432/YourDatabase
     ```
-7. **Update the MAIL_DETAILS in the FILE with the actual sender mail details in this format:**
+7. **Update the MAIL_DETAILS in the [email.js](https://github.com/PhaniK2023tm93578/BookBuddyFSADAssignment/blob/main/server/utils/email.js) with the actual sender mail details in this format:**
     ```bash
         {
             service: "<MailService>",
